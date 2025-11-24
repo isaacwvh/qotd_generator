@@ -8,7 +8,7 @@ export default function App() {
 
   async function getQuote() {
     try {
-      const res = await fetch("http://127.0.0.1:5000/quote");
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/quote`);
       const data = await res.json();
       setQuote(data.quote);
     } catch (err) {
