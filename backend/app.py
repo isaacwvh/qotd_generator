@@ -6,11 +6,23 @@ app = Flask(__name__)
 CORS(app)  
 
 quotes = [
-    "Talk is cheap. Show me the code.",
-    "Simplicity is the soul of efficiency.",
-    "Debugging is twice as hard as writing the code.",
-    "Make it work, make it right, make it fast."
+    "You do not have to see the whole path to take the next step.",
+    "Discipline is choosing what you want most over what you want now.",
+    "Start before you are ready; clarity comes from doing.",
+    "Be proud of how far you have come, and excited for what comes next.",
+    "Your future is built from what you do today, not what you plan tomorrow.",
+    "Courage is not the absence of fear; it is moving forward with it.",
+    "A little progress every day adds up to big change.",
+    "You are allowed to be a work in progress and still be worthy of love.",
+    "Focus on what you can control, and let the rest be noise.",
+    "Make decisions as the person you want to become.",
+    "Imperfection is beauty, madness is genius and it is better to be absolutely ridiculous than absolutely boring.",
+    "Without music, life would be a mistake.",
+    "without drake, life would be a mistake",
+    "Everything you can imagine is real.",
+    "Life isn't about finding yourself. Life is about creating yourself"
 ]
+
 
 @app.get("/quote")
 def get_quote():
