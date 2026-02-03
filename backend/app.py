@@ -21,7 +21,7 @@ quotes = [
     "without drake, life would be a mistake",
     "Everything you can imagine is real.",
     "Life isn't about finding yourself. Life is about creating yourself",
-    "CAREFUL, you might miss it! https://www.speedtest.net/"
+    "CAREFUL, you might miss it! https://secret-self-ten.vercel.app/ (copy paste in your browser)"
 ]
 
 
