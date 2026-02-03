@@ -20,7 +20,7 @@ quotes = [
     "Without music, life would be a mistake.",
     "without drake, life would be a mistake",
     "Everything you can imagine is real.",
-    "Life isn't about finding yourself. Life is about creating yourself"
+    "Life isn't about finding yourself. Life is about creating yourself",
     "CAREFUL, you might miss it! https://www.speedtest.net/"
 ]
 
